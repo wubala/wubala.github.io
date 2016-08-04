@@ -12,11 +12,11 @@ email: 158237627@qq.com
 location: Jiangxi, China
 company: Henan University
 company_url: http://www.henu.edu.cn/
-github_url: https://github.com/Z-Beatle
+github_url: https://github.com/Z-Beatles
 description: This is personnel website of Wayne Chu
 favicon: favicon.png # Image must be in assets/images
 
-url: http://Z-Beatle.github.io # the base hostname & protocol for your site
+url: http://Z-Beatles.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:
