@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python中用format函数格式化字符串
+title: Python中用format()格式化字符串
 category: Python
 tags: [Python]
 ---
