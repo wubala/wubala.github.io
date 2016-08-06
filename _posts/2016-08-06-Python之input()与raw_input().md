@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Python之input()与raw_input()
 category: Python
