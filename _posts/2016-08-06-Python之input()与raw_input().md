@@ -1,11 +1,9 @@
----
+﻿---
 layout: post
 title: Python之input()与raw_input()
 category: Python
 tags: [Python]
 ---
-
-## 简介
 
 input()与raw_input()均是 python 的内建函数，通过读取控制台的输入与用户实现交互。但他们的功能不尽相同。举两个小栗子。
 
