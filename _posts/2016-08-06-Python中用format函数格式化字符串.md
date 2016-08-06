@@ -6,23 +6,23 @@ tags: [Python]
 ---
 
 
-　　自python2.6开始，新增了一种格式化字符串的函数str.format()，可谓威力十足。那么，他跟之前的%型格式化字符串相比，有什么优越的存在呢？让我们来揭开它羞答答的面纱。
+　　自python2.6开始，新增了一种格式化字符串的函数str.format()，可谓威力十足。那么，他跟之前的%型格式化字符串相比，有什么优越的存在呢？
 
 ## 语法
 
-它通过 {} 和 : 来代替%。
+它通过 {} 和 : 来代替 % 。
 
 ## “映射”示例
 
 ### 通过位置
 
 ```shell
-In [1]: '{0},{1}'.format('kzc',18) 
-Out[1]: 'kzc,18'
-In [2]: '{},{}'.format('kzc',18) 
-Out[2]: 'kzc,18'
-In [3]: '{1},{0},{1}'.format('kzc',18) 
-Out[3]: '18,kzc,18'
+In [1]: '{0},{1}'.format('zw',20) 
+Out[1]: 'zw,20'
+In [2]: '{},{}'.format('zw',20) 
+Out[2]: 'zw,20'
+In [3]: '{1},{0},{1}'.format('zw',20) 
+Out[3]: '20,zw,20'
 ```
 
 **注意：**  
@@ -32,8 +32,8 @@ Out[3]: '18,kzc,18'
 ### 通过关键字参数
 
 ```shell
-In [5]: '{name},{age}'.format(age=18,name='kzc') 
-Out[5]: 'kzc,18'
+In [5]: '{name},{age}'.format(age=20,name='zw') 
+Out[5]: 'zw,20'
 ```
 
 ### 通过对象属性
@@ -47,16 +47,16 @@ class Person:
 ```
 
 ```shell
-In [2]: str(Person('kzc',18)) 
-Out[2]: 'This guy is kzc,is 18 old'
+In [2]: str(Person('zw',20)) 
+Out[2]: 'This guy is zw,is 20 old'
 ```
 
 ### 通过下标
 
 ```shell
-In [7]: p=['kzc',18]
+In [7]: p=['zw',20]
 In [8]: '{0[0]},{0[1]}'.format(p)
-Out[8]: 'kzc,18'
+Out[8]: 'zw,20'
 ```
 
 有了这些便捷的“映射”方式，我们就有了偷懒利器。基本的python知识告诉我们，list和tuple可以通过“打散”成普通参数给函数，而dict可以打散成关键字参数给函数（通过和*）。所以可以轻松的传个list/tuple/dict给format函数。非常灵活。
@@ -70,15 +70,17 @@ Out[8]: 'kzc,18'
 * 填充常跟对齐一起使用  
 * ^、<、>分别是居中、左对齐、右对齐，后面带宽度  
 * :号后面带填充的字符，只能是一个字符，不指定的话默认是用空格填充  
-比如
+比如:
 
 ```shell
-In [15]: '{:>8}'.format('189')
-Out[15]: '   189'
-In [16]: '{:0>8}'.format('189')
-Out[16]: '00000189'
-In [17]: '{:a>8}'.format('189')
-Out[17]: 'aaaaa189'
+In [15]: '{:>10}'.format('qq')
+Out[15]: '        qq'
+In [16]: '{:>10}'.format('weibo')
+Out[16]: '     weibo'
+In [17]: '{:0>8}'.format('189')
+Out[17]: '00000189'
+In [18]: '{:a>8}'.format('189')
+Out[18]: 'aaaaa189'
 ```
 
 ## 精度与类型f
