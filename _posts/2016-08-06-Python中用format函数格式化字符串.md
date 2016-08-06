@@ -6,7 +6,7 @@ tags: [Python]
 ---
 
 
-　　自python2.6开始，新增了一种格式化字符串的函数str.format()，可谓威力十足。那么，他跟之前的%型格式化字符串相比，有什么优越的存在呢？
+自python2.6开始，新增了一种格式化字符串的函数str.format()，可谓威力十足。那么，他跟之前的%型格式化字符串相比，有什么优越的存在呢？
 
 ## 语法
 
@@ -16,7 +16,7 @@ tags: [Python]
 
 ### 通过位置
 
-```shell
+```python
 In [1]: '{0},{1}'.format('zw',20) 
 Out[1]: 'zw,20'
 In [2]: '{},{}'.format('zw',20) 
@@ -31,7 +31,7 @@ Out[3]: '20,zw,20'
 
 ### 通过关键字参数
 
-```shell
+```python
 In [5]: '{name},{age}'.format(age=20,name='zw') 
 Out[5]: 'zw,20'
 ```
@@ -46,14 +46,14 @@ class Person:
       return 'This guy is {self.name},is {self.age} old'.format(self=self) 
 ```
 
-```shell
+```python
 In [2]: str(Person('zw',20)) 
 Out[2]: 'This guy is zw,is 20 old'
 ```
 
 ### 通过下标
 
-```shell
+```python
 In [7]: p=['zw',20]
 In [8]: '{0[0]},{0[1]}'.format(p)
 Out[8]: 'zw,20'
@@ -72,7 +72,7 @@ Out[8]: 'zw,20'
 * :号后面带填充的字符，只能是一个字符，不指定的话默认是用空格填充  
 比如:
 
-```shell
+```python
 In [15]: '{:>10}'.format('qq')
 Out[15]: '        qq'
 In [16]: '{:>10}'.format('weibo')
@@ -87,17 +87,18 @@ Out[18]: 'aaaaa189'
 
 * 精度常跟类型f一起使用
 
-```shell
+```python
 In [44]: '{:.2f}'.format(321.33345)
 Out[44]: '321.33'
 ```
+
 * 其中.2表示长度为2的精度，f表示float类型。
 
 ### 其他类型
 
 * 主要就是进制了，b、d、o、x分别是二进制、十进制、八进制、十六进制。
 
-```shell
+```python
 In [54]: '{:b}'.format(17)
 Out[54]: '10001'
 In [55]: '{:d}'.format(17)
@@ -109,7 +110,7 @@ Out[57]: '11'
 ```
 * 用，号还能用来做金额的千位分隔符。
 
-```shell
+```python
 In [47]: '{:,}'.format(1234567890)
 Out[47]: '1,234,567,890'
 ```  
