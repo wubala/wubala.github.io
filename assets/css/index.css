@@ -18,7 +18,7 @@
 }
 
 .jumbotron {
-    background-image:url(https://raw.githubusercontent.com/Z-Beatles/Z-Beatles.github.io/master/assets/images/main_bg.jpg);
+    background-image:url(https://raw.githubusercontent.com/Z-Beatles/Z-Beatles.github.io/master/assets/images/main_bg.jpg) repeat-x repeat-y;
     
 .site-header.site-header-nav-scrolled a {
     color: #2e2e2e;
