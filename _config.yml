@@ -8,12 +8,12 @@
 # Site settings
 title: 甲壳虫爱上了夏天
 name: Wayne Chu
-email: 158237627@qq.com
+email: waynechu@waynechu.cn
 location: Jiangxi, China
 company: Henan University
 company_url: http://www.henu.edu.cn/
 github_url: https://github.com/Z-Beatles
-description: This is personnel website of Wayne Chu
+description: This is personnel website of Wayne Chu | 个人博客，用于记录学习笔记，分享经验
 favicon: favicon.png # Image must be in assets/images
 
 url: http://Z-Beatles.github.io # the base hostname & protocol for your site
