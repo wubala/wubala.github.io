@@ -17,8 +17,8 @@ menu: Bookmark
 - [fullPage.js](http://alvarotrigo.com/fullPage/) - To create fullscreen scrolling websites / single page websites
 - [lunr.js](http://lunrjs.com/) - Simple full-text search
 - [Trip.js](http://eragonj.github.io/Trip.js/index.html) - Help you customize a tutorial trip easily with more flexibilities
-- [Moment.js](http://momentjs.com/) - Parse, validate, manipulate, and display dates in JavaScript.
-- [Underscore.js](http://underscorejs.org/) - It provides a whole mess of useful functional programming helpers without extending any built-in objects.
+- [Moment.js](http://momentjs.com/) - Parse, validate, manipulate, and display dates in JavaScript
+- [Underscore.js](http://underscorejs.org/) - It provides a whole mess of useful functional programming helpers without extending any built-in objects
 
 ## Fonts
 - [Google Fonts](https://www.google.com/fonts) - So it's google fonts :D
@@ -33,3 +33,6 @@ menu: Bookmark
 
 ## Color
 - [Minimalist-Color-Palettes](https://www.behance.net/gallery/32154055/Minimalist-Color-Palettes-2015) - Minimalist Color Palettes
+
+## Type
+- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor. Take our typing lessons for free.
