@@ -5,9 +5,8 @@ category: shadowsocks
 tags: [shadowsocks]
 ---
 
-## GitHub Education
-
 之前一直在使用免费的ss，但是访问外网的速度实在是不可恭维，索性决定自己搭建VPS来翻墙。本来准备在[搬瓦工](https://bandwagonhost.com/)购买，不过最低配置也要$19.9/Y。  
+
 后来意外发现 GitHub Education 有面向学生的福利，一旦成功申请到Github Student pack，就可以获得$50，加上充值的$5和注册邀请码$10,此时账户一共有$65，对于最低配置的VPS $5一个月，可以使用一年啊！！直到毕业之前都一直有Promo Code赠送，那就远远不止免费一年了。
 
 推荐有能力，爱折腾，有科学上网需要的小伙伴食用此教程。
@@ -29,6 +28,7 @@ I don't have a school-issued email（第一次我使用edu邮箱提交申请当�
 ### 注册DO帐号
 
 首先注册Digital Ocean账号。可以点击我的[邀请链接](https://m.do.co/c/6d3c33c4b39e)注册，激活后就会收到$10的奖励，但是仅仅这样还是无法在Digital Ocean上创建虚拟主机。你需要绑定信用卡或者使用PayPal添加银行卡，PayPal需要支付$5才能完成注册流程。我是在paypal账号上绑定了一张银联的卡来付款的，$5按汇率大概￥33多一点吧。
+
 如果你已经获得了了第一步的Student Developer Pack，那么可以在注册成功后在Settings->Billing下找到Promo Code，输入你在Student Developer Pack获得的学生优惠码，价值50刀，这对于屌丝学生来说可是笔不小的数目。
 
 ### 创建VPS
@@ -105,4 +105,4 @@ ssserver -c /etc/shadowsocks.json
 
 配置完成后勾选启动代理，就可以访问外网，获取你所需要的资源了。
 
-> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。   ------ Emailto: waynechu@waynechu.cn
+> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。              ------ Emailto: waynechu@waynechu.cn
