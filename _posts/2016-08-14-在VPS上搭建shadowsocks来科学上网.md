@@ -5,9 +5,12 @@ category: shadowsocks
 tags: [shadowsocks]
 ---
 
+## GitHub Education
 
 之前一直在使用免费的ss，但是访问外网的速度实在是不可恭维，索性决定自己搭建VPS来翻墙。本来准备在[搬瓦工](https://bandwagonhost.com/)购买，不过最低配置也要$19.9/Y。  
-后来意外发现 GitHub Education 有面向学生的福利，一旦成功申请到Github Student pack，就可以获得$50，加上充值的$5和注册邀请码$10,此时账户一共有$65，对于最低配置的VPS $5一个月，可以使用一年啊！！直到毕业之前都一直有Promo Code赠送。那就远远不止免费一年了，推荐有能力，爱折腾，有科学上网需要的小伙伴食用此教程。
+后来意外发现 GitHub Education 有面向学生的福利，一旦成功申请到Github Student pack，就可以获得$50，加上充值的$5和注册邀请码$10,此时账户一共有$65，对于最低配置的VPS $5一个月，可以使用一年啊！！直到毕业之前都一直有Promo Code赠送，那就远远不止免费一年了。
+
+推荐有能力，爱折腾，有科学上网需要的小伙伴食用此教程。
 这是得到Student Developer Pack时Git发来的邮件的部分内容：
 
 > Spread the word: we love giving educational discounts to students, teachers, administrators, and researchers! Please send them to:  
