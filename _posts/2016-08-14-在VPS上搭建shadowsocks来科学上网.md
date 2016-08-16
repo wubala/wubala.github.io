@@ -1,16 +1,17 @@
 ---
 layout: post
-title: 在VPS搭建shadowsocks来科学上网
-category: Python
-tags: [Python]
+title: 在VPS上搭建shadowsocks来科学上网
+category: shadowsocks
+tags: [shadowsocks]
 ---
 
 
-之前一直在使用免费的ss，但是访问外网的速度实在是不可恭维，索性决定自己搭建VPS来翻墙。本来准备在[搬瓦工](https://bandwagonhost.com/)购买，不过最低配置也要$19.9/Y。后来意外发现 GitHub Education 有面向学生的福利，一旦成功申请到Github Student pack，就可以获得$50，加上充值的$5和注册邀请码$10,此时账户一共有$65，对于最低配置的VPS $5一个月，可以使用一年啊！！直到毕业之前都一直有Promo Code赠送。那就远远不止免费一年了，推荐有能力，爱折腾，有科学上网需要的小伙伴食用此教程。
+之前一直在使用免费的ss，但是访问外网的速度实在是不可恭维，索性决定自己搭建VPS来翻墙。本来准备在[搬瓦工](https://bandwagonhost.com/)购买，不过最低配置也要$19.9/Y。  
+后来意外发现 GitHub Education 有面向学生的福利，一旦成功申请到Github Student pack，就可以获得$50，加上充值的$5和注册邀请码$10,此时账户一共有$65，对于最低配置的VPS $5一个月，可以使用一年啊！！直到毕业之前都一直有Promo Code赠送。那就远远不止免费一年了，推荐有能力，爱折腾，有科学上网需要的小伙伴食用此教程。
 这是得到Student Developer Pack时Git发来的邮件的部分内容：
 
 > Spread the word: we love giving educational discounts to students, teachers, administrators, and researchers! Please send them to:  
-https://education.github.com 
+        https://education.github.com 
 
 真是暖心啊~~~业界良心！！！
 具体过程参考以下内容：
@@ -50,7 +51,6 @@ Tips:记下你的服务器IP地址，配置客户端会用到。
 ```shell
 apt-get install python-pip
 pip install shadowsocks
-
 ```
 
 ### 配置shadowsocks服务
@@ -86,7 +86,7 @@ ssserver -c /etc/shadowsocks.json
 
 ###  SS客户端下载
 
-前往GitHub托管的[ShadowSocks](https://github.com/shadowsocks)项目下载相应客户端。
+前往GitHub托管的[ShadowSocks](https://github.com/shadowsocks)项目下载相应客户端。  
 这里仅贴出windows版本：[下载地址](https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.5.6/Shadowsocks-win-2.5.6.zip)
 
 ###  客户端配置
@@ -102,6 +102,4 @@ ssserver -c /etc/shadowsocks.json
 
 配置完成后勾选启动代理，就可以访问外网，获取你所需要的资源了。
 
-> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。
-
-----------------Emailto: waynechu@waynechu.cn----------------
+> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。   ------ Emailto: waynechu@waynechu.cn
