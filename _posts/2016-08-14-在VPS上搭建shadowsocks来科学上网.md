@@ -23,11 +23,11 @@ tags: [shadowsocks]
 如果你是学生的话，可以前往 [GitHub](https://education.github.com/)，如果你没有GitHub帐号，先注册GitHub，注册完成后点击I am a student填写学生验证信息，Verify academic status一栏选择
 I don't have a school-issued email（第一次我使用edu邮箱提交申请当天就被拒绝了，貌似国内edu邮箱没有公信力），然后上传你的学生证照片或者能证明你是学生即可。剩下的就是漫长的等待了（本人等了接近2天终于收到确认请求）~~
 
-注册github:
 
 ![这里写图片描述](http://img.blog.csdn.net/20160816164348813)
 
 ![这里写图片描述](http://img.blog.csdn.net/20160816164637677)
+
 ##  Digital Ocean
 
 ### 注册DO帐号
