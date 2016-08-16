@@ -105,4 +105,4 @@ ssserver -c /etc/shadowsocks.json
 
 配置完成后勾选启动代理，就可以访问外网，获取你所需要的资源了。
 
-> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。              ------ Emailto: waynechu@waynechu.cn
+> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。      　　　　　　　　 ------ Emailto: waynechu@waynechu.cn
