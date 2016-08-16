@@ -23,13 +23,20 @@ tags: [shadowsocks]
 如果你是学生的话，可以前往 [GitHub](https://education.github.com/)，如果你没有GitHub帐号，先注册GitHub，注册完成后点击I am a student填写学生验证信息，Verify academic status一栏选择
 I don't have a school-issued email（第一次我使用edu邮箱提交申请当天就被拒绝了，貌似国内edu邮箱没有公信力），然后上传你的学生证照片或者能证明你是学生即可。剩下的就是漫长的等待了（本人等了接近2天终于收到确认请求）~~
 
+注册github:
+![这里写图片描述](http://7xqfkg.com1.z0.glb.clouddn.com/FmwXRyuMGaGvakChJluoE1u_Xq9o)
+![这里写图片描述](http://7xqfkg.com1.z0.glb.clouddn.com/FngSNoml-R1jwM9olBE6VjU5EodD)
 ##  Digital Ocean
 
 ### 注册DO帐号
 
-首先注册Digital Ocean账号。可以点击我的[邀请链接](https://m.do.co/c/6d3c33c4b39e)注册，激活后就会收到$10的奖励，但是仅仅这样还是无法在Digital Ocean上创建虚拟主机。你需要绑定信用卡或者使用PayPal添加银行卡，PayPal需要支付$5才能完成注册流程。我是在paypal账号上绑定了一张银联的卡来付款的，$5按汇率大概￥33多一点吧。
+首先注册Digital Ocean账号。可以点击我的[邀请链接](https://m.do.co/c/6d3c33c4b39e)注册，激活后就会收到$10的奖励，但是仅仅这样还是无法在Digital Ocean上创建虚拟主机。你需要绑定信用卡或者使用PayPal添加银行卡，作为国内用户建议不要使用国内信用卡，有说会不成功，导致账号直接废了。通过paypal充值的方法验证账户的好处是如果有纠纷可以通过paypal纠纷申请退款，并且paypal资金安全性要好于信用卡绑定。PayPal需要支付$5才能完成注册流程。我是在paypal账号上绑定了一张银联的卡来付款的，$5按汇率大概￥33多一点吧。
 
-如果你已经获得了了第一步的Student Developer Pack，那么可以在注册成功后在Settings->Billing下找到Promo Code，输入你在Student Developer Pack获得的学生优惠码，价值50刀，这对于屌丝学生来说可是笔不小的数目。
+![这里写图片描述](http://img.blog.csdn.net/20160816161413413)
+
+* 具体方法参考[Digitalocean VPS注册和使用详细中文教程](http://www.hi8688.com/695.html) 的前四个步骤就好。
+
+* 如果你已经获得了了第一步的Student Developer Pack，那么可以在注册成功后在Settings->Billing下找到Promo Code，输入你在Student Developer Pack获得的学生优惠码，价值50刀，这对于屌丝学生来说可是笔不小的数目。
 
 ### 创建VPS
 
@@ -42,10 +49,13 @@ I don't have a school-issued email（第一次我使用edu邮箱提交申请当�
 
 ### 建立shadowsocks服务端
 
-在你的droplet的控制面板上，点击acces，再点击console access进入远程终端的连接。  
-初次进入需要输入原始的账号密码，账号是root，密码会在注册邮箱中找到（在创建完droplet后发送至邮箱），输入完原始的账号密码后，系统会让你再次输入原始的密码来改变密码，所以又要再次输入三次密码，第一次是原始密码，第二，三次是修改后密码。
+在你的droplets的控制面板上，在你的服务器名后点击下拉more，再点击accessv console进入远程终端的连接。  
+![这里写图片描述](http://img.blog.csdn.net/20160816163553145)
 
-Tips:记下你的服务器IP地址，配置客户端会用到。
+*  Tips:记下你的服务器IP地址，配置客户端会用到。
+
+![这里写图片描述](http://img.blog.csdn.net/20160816163154280)
+初次进入需要输入原始的账号密码，账号是root，密码会在注册邮箱中找到（在创建完droplet后发送至邮箱），输入完原始的账号密码后，系统会让你再次输入原始的密码来改变密码，所以又要再次输入三次密码，第一次是原始密码，第二，三次是修改后密码。
 
 ### 在VPS上安装shadowsocks
 
