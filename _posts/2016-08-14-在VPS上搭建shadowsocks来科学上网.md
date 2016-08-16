@@ -24,8 +24,10 @@ tags: [shadowsocks]
 I don't have a school-issued email（第一次我使用edu邮箱提交申请当天就被拒绝了，貌似国内edu邮箱没有公信力），然后上传你的学生证照片或者能证明你是学生即可。剩下的就是漫长的等待了（本人等了接近2天终于收到确认请求）~~
 
 注册github:
-![这里写图片描述](http://7xqfkg.com1.z0.glb.clouddn.com/FmwXRyuMGaGvakChJluoE1u_Xq9o)
-![这里写图片描述](http://7xqfkg.com1.z0.glb.clouddn.com/FngSNoml-R1jwM9olBE6VjU5EodD)
+
+![这里写图片描述](http://img.blog.csdn.net/20160816164348813)
+
+![这里写图片描述](http://img.blog.csdn.net/20160816164637677)
 ##  Digital Ocean
 
 ### 注册DO帐号
@@ -55,6 +57,7 @@ I don't have a school-issued email（第一次我使用edu邮箱提交申请当�
 *  Tips:记下你的服务器IP地址，配置客户端会用到。
 
 ![这里写图片描述](http://img.blog.csdn.net/20160816163154280)
+
 初次进入需要输入原始的账号密码，账号是root，密码会在注册邮箱中找到（在创建完droplet后发送至邮箱），输入完原始的账号密码后，系统会让你再次输入原始的密码来改变密码，所以又要再次输入三次密码，第一次是原始密码，第二，三次是修改后密码。
 
 ### 在VPS上安装shadowsocks
@@ -115,4 +118,4 @@ ssserver -c /etc/shadowsocks.json
 
 配置完成后勾选启动代理，就可以访问外网，获取你所需要的资源了。
 
-> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。      　　　　　　　　 ------ Emailto: waynechu@waynechu.cn
+> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。      　　　　　　　　　　　　 ------ Emailto: waynechu@waynechu.cn
