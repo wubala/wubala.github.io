@@ -93,11 +93,11 @@ vi  /etc/shadowsocks.json
 Tips:点击 i 进入编辑模式,编辑完成后按Esc退出编辑，输入:wq!退出保存。
 
 
-### 启动服务端的SS服务
+### 后台启动服务端的SS服务
 
 
 ```shell
-ssserver -c /etc/shadowsocks.json 
+ssserver -c /etc/shadowsocks.json -d start
 ```
 
 ###  SS客户端下载
