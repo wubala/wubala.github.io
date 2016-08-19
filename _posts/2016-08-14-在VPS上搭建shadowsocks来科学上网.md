@@ -44,6 +44,8 @@ I don't have a school-issued email（第一次我使用edu邮箱提交申请当�
 
 然后你就可以创建你的VPS了，搭建SS服务器选择 $5/mon 的那最低端的配置，如有你有建站或者其他需求的话另行选择。经过测试San Francisco的机房延迟最低，平均在230ms左右。而Singapore的机房延迟在280ms，还有5%左右的丢包率。所以经过几次创建后又销毁重新创建地倒腾，我最后还是选择了使用San Francisco的节点。另外操作系统的话，我选择的是ubuntu的，看个人喜好选择吧。
 
+Tips:贴一个测速地址，这也是后来找到的。-->  [Digitalocean服务器测速](http://speedtest-sfo2.digitalocean.com/)
+
 ## ShadowSocks
 
 ### SS介绍
@@ -117,5 +119,11 @@ ssserver -c /etc/shadowsocks.json -d start
 ```
 
 配置完成后勾选启动代理，就可以访问外网，获取你所需要的资源了。
+
+
+贴张图表示下 ---> YouTube 1080P 毫无压力
+
+![这里写图片描述](http://img.blog.csdn.net/20160819235904373)
+
 
 > 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。      　　　　　　　　　　　　 ------ Emailto: waynechu@waynechu.cn
