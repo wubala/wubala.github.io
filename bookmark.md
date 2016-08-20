@@ -35,4 +35,5 @@ menu: Bookmark
 - [Minimalist-Color-Palettes](https://www.behance.net/gallery/32154055/Minimalist-Color-Palettes-2015) - Minimalist Color Palettes
 
 ## Type
-- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor. Take our typing lessons for free.Welcome to my group --> [The feet of water just fine](www.ratatype.com/groups/6832870)
+- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor. Take our typing lessons for free.
+　　　　　　Welcome to my group --> [The feet of water just fine](www.ratatype.com/groups/6832870)
