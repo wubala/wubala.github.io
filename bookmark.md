@@ -5,6 +5,24 @@ subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; To mark us
 menu: Bookmark
 ---
 
+## Type
+- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor, take our typing lessons for free
+　　　　　　　Welcome to my group - ["The feet of water just fine"](https://www.ratatype.com/groups/6832870)
+
+## Fonts
+- [Google Fonts](https://www.google.com/fonts) - So it's google fonts :D
+
+## Color
+- [Minimalist-Color-Palettes](https://www.behance.net/gallery/32154055/Minimalist-Color-Palettes-2015) - Minimalist Color Palettes
+
+## Icons
+- [Github-Octicons](https://octicons.github.com/) - GitHub's icons
+- [Font-Awesome](https://fortawesome.github.io/Font-Awesome/) - Scalable vector icons that can instantly be customized
+- [Iconfont](http://www.iconfont.cn/) - Alibaba Icon Library (Chinese)
+- [flag-icon-css](http://lipis.github.io/flag-icon-css/) - Country Flags
+- [weloveiconfonts](http://weloveiconfonts.com/) - Icon fonts
+- [Material Icon](https://design.google.com/icons/#ic_accessibility) - Material icons
+
 ## Android
 - [Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Powerful and flexible library for loading, caching and displaying images
 - [greenDAO](http://greendao-orm.com/) - greenDAO is a light and fast ORM solution that maps objects to SQLite databases
@@ -20,20 +38,5 @@ menu: Bookmark
 - [Moment.js](http://momentjs.com/) - Parse, validate, manipulate, and display dates in JavaScript
 - [Underscore.js](http://underscorejs.org/) - It provides a whole mess of useful functional programming helpers without extending any built-in objects
 
-## Fonts
-- [Google Fonts](https://www.google.com/fonts) - So it's google fonts :D
 
-## Icons
-- [Github-Octicons](https://octicons.github.com/) - GitHub's icons
-- [Font-Awesome](https://fortawesome.github.io/Font-Awesome/) - Scalable vector icons that can instantly be customized
-- [Iconfont](http://www.iconfont.cn/) - Alibaba Icon Library (Chinese)
-- [flag-icon-css](http://lipis.github.io/flag-icon-css/) - Country Flags
-- [weloveiconfonts](http://weloveiconfonts.com/) - Icon fonts
-- [Material Icon](https://design.google.com/icons/#ic_accessibility) - Material icons
 
-## Color
-- [Minimalist-Color-Palettes](https://www.behance.net/gallery/32154055/Minimalist-Color-Palettes-2015) - Minimalist Color Palettes
-
-## Type
-- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor. Take our typing lessons for free.
-　　　　　　　Welcome to my group - ["The feet of water just fine"](https://www.ratatype.com/groups/6832870)
