@@ -5,15 +5,17 @@ subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; To mark us
 menu: Bookmark
 ---
 
-## Type
-- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor, take our typing lessons for free
-　　　　　　　Welcome to my group - ["The feet of water just fine"](https://www.ratatype.com/groups/6832870)
+
 
 ## Fonts
 - [Google Fonts](https://www.google.com/fonts) - So it's google fonts :D
 
 ## Color
 - [Minimalist-Color-Palettes](https://www.behance.net/gallery/32154055/Minimalist-Color-Palettes-2015) - Minimalist Color Palettes
+
+## Type
+- [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor, take our typing lessons for free
+　　　　　　　Welcome to my group - ["The feet of water just fine"](https://www.ratatype.com/groups/6832870)
 
 ## Icons
 - [Github-Octicons](https://octicons.github.com/) - GitHub's icons
