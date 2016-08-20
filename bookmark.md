@@ -15,7 +15,7 @@ menu: Bookmark
 
 ## Type
 - [Ratatype](http://www.ratatype.com/) - Learn to type faster with Ratatype typing tutor, take our typing lessons for free
-　　　　　　　Welcome to my group - ["The feet of water just fine"](https://www.ratatype.com/groups/6832870)
+　　　　　　　Welcome to my group - ["The feet of water just fine"](http://www.ratatype.com/groups/6832870)
 
 ## Icons
 - [Github-Octicons](https://octicons.github.com/) - GitHub's icons
