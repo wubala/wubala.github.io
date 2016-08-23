@@ -27,7 +27,7 @@ tags: [Wordpress]
 
 解决的方法很简单，把下面的代码加入当前主题的functions.php里面就可以了。
 
-```php
+```java
 function reset_password_message( $message, $key ) { if ( strpos($_POST['user_login'], '@') ) { $user_data = get_user_by('email', trim($_POST['user_login'])); } else { $login = trim($_POST['user_login']); $user_data = get_user_by('login', $login); } $user_login = $user_data->user_login; $msg = __('有人要求重设如下帐号的密码：'). "\r\n\r\n"; $msg .= network_site_url() . "\r\n\r\n"; $msg .= sprintf(__('用户名：%s'), $user_login) . "\r\n\r\n"; $msg .= __('若这不是您本人要求的，请忽略本邮件，一切如常。') . "\r\n\r\n"; $msg .= __('要重置您的密码，请打开下面的链接：'). "\r\n\r\n"; $msg .= network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login') ; return $msg; } add_filter('retrieve_password_message', reset_password_message, null, 2);
 ```
 
@@ -37,15 +37,16 @@ function reset_password_message( $message, $key ) { if ( strpos($_POST['user_log
 
 找到如下代码（大约在第330行）：
 
-```php
+```java
 $message .= '<' . network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login') . ">\r\n";
 ```
 
 修改为：
 
-```php
+```java
 $message .= network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login') ;
 ```
+
 其实也就是把'<‘ .和. “>\r\n”去掉，但是这种方法在升级Wordpress后会失效，因为升级后wp-login.php会被替换，需要重新修改wp-login.php，所以推荐使用第一种方法。
 
 修改后即用户可正常设置密码：
@@ -65,13 +66,13 @@ $message .= network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlen
 下载站点中wp-includes文件夹中的pluggable.php文件并打开
 找到如下语句：
 
-```php
+```java
 $message .= '<'network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login')">\r\n\" ;
 ```
 
 修改为：
 
-```php
+```java
 $message .= network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user->user_login), 'login') . "\r\n\r\n";
 ```
 
