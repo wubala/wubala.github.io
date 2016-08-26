@@ -5,7 +5,7 @@ category: android
 tags: [android]
 ---
 
-有四种模式来定义如何启动一个 Activity. 它们可以同时和 Intent 标志一起使用来定义各种不同的启动模式. 
+有四种模式来定义如何启动一个Activity. 它们可以同时和 Intent 标志一起使用来定义各种不同的启动模式. 
 
 下面是四种基本的启动模式.
 
