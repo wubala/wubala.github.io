@@ -126,4 +126,4 @@ ssserver -c /etc/shadowsocks.json -d start
 ![这里写图片描述](http://img.blog.csdn.net/20160819235904373)
 
 
-> 如有疑问请留言或者给我来信。本着共享与资源有效利用的原则，需要SS帐号分享的可以发送邮件找我索要临时帐号。      　　　　　　　　　　　　 ------ Emailto: waynechu@waynechu.cn
+> 如有疑问请留言或者给我来信。打波广告：需要SS帐号的可以联系我，可提供SS帐号，价格实惠速度有保证，可先试用再确定是否购买。      　　　　　　　　　　　　 ------ Emailto: waynechu@waynechu.cn
