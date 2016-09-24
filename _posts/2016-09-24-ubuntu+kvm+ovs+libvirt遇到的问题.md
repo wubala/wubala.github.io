@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ERROR    Unable to add port vnet0 to OVS bridge br0: Operation not permitted
-category: network
-taps: [network]
+category: linux
+taps: [linux]
 ---
 
 在Ubuntu+libviert+kvm+ovs,用virt 工具启动虚拟机时报如上错误，下面是环境信息及解决方法.
