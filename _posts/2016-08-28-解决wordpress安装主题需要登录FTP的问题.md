@@ -2,7 +2,7 @@
 layout: post
 title: 解决wordpress安装主题需要登录FTP的问题
 category: Wordpress
-tags: [Wordpress]
+tags: [python]
 ---
 
 ## 问题描述

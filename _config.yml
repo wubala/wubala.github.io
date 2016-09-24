@@ -8,15 +8,15 @@
 # Site settings
 title: 甲壳虫爱上了夏天
 name: wubala
-email: waynechu@waynechu.cn
-location: Jiangxi, China
-company: Henan University
+email: wubala_wulei@163.com
+location: xi, China
+company:cecgw 
 company_url: http://www.henu.edu.cn/
-github_url: https://github.com/Z-Beatles
+github_url: https://github.com/wubala
 description: This is personnel website of Wayne Chu | 个人博客，用于记录学习笔记，分享经验
 favicon: favicon.png # Image must be in assets/images
 
-url: http://Z-Beatles.github.io # the base hostname & protocol for your site
+url: http://wubala.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:
