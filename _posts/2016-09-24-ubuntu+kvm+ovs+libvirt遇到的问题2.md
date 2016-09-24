@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unable to add port vnet0 to OVS bridge br0: Operation not permitted
+title: ubuntu+kvm+ovs:error
 category: Wordpress
 tags: [python]
 ---
