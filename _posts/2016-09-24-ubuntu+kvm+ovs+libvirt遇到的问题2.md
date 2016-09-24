@@ -1,24 +1,25 @@
 ---
 layout: post
-title: ERROR Unable to add port vnet0 to OVS bridge br0: Operation not permitted
-category: android
-tags: [android]
+title: Unable to add port vnet0 to OVS bridge br0: Operation not permitted
+category: Wordpress
+tags: [python]
 ---
 
 在Ubuntu+libviert+kvm+ovs,用virt 工具启动虚拟机时报如上错误，下面是环境信息及解决方法.
 
 ### 环境信息
 
-` root@ubuntuggg:~# ovs-vsctl show
+```
+root@ubuntuggg:~# ovs-vsctl show
 1e7186fa-e62b-4697-9db3-1361de0d251e
     Bridge "br0"
         Port "br0"
             Interface "br0"
                 type: internal
                
-`
 
-`
+
+
  root@ubuntuggg:~# virsh net-list --all    
 
    Name  State   Autostart   Persistent  
@@ -26,7 +27,7 @@ tags: [android]
    default active     yes     yes   
  
    ovs-br0 active     yes           yes  
-`   
+``` 
 
 
 ### 操作命令 出现的问题
