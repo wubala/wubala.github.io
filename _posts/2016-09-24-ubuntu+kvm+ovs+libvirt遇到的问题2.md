@@ -7,7 +7,7 @@ tags: [Network]
 
 在Ubuntu+libviert+kvm+ovs,用virt 工具启动虚拟机时报如上错误，下面是环境信息及解决方法.
 
-### 环境信息
+## 环境信息
 
 ```
 root@ubuntuggg:~# ovs-vsctl show
@@ -30,11 +30,11 @@ root@ubuntuggg:~# ovs-vsctl show
 ``` 
 
 
-### 操作命令 出现的问题
+## 操作命令 出现的问题
 
 >  virt-install —connect qemu:///system —name vyos —vcpu 1 —ram 512 —network network=default —file /home/test/vyos.img —file-size 10 —cdrom /home/wulei/img/vyos-1.1.7-amd64.iso —accelerate -nographics
 
-### 日志
+## 日志
 
 libvirt日志：
 
@@ -49,6 +49,7 @@ libvirt日志：
 
 
 kernel日志：
+
 ```
  Sep 19 23:10:58 ubuntuggg kernel: [218327.795071] type=1400 audit(1474341058.343:77): apparmor="DENIED" operation="exec" profile="/usr/sbin/libvirtd" name="/usr/local/bin/ovs-vsctl" pid=16919 comm="libvirtd" requested_mask="x" denied_mask="x" fsuid=0 ouid=0
 
@@ -68,7 +69,7 @@ kernel日志：
  Sep 19 23:24:45 ubuntuggg kernel: [219156.189144] type=1400 audit(1474341885.871:81): apparmor="STATUS" operation="profile_remove" profile="unconfined" name="libvirt-5785a931-27e6-69e5-4aae-146133d0d02f" pid=17185 comm="apparmor_parser"
 ```
 
-### 解决方法
+## 解决方法
 
 1. 原因是由于ovs编译部署在/usr/local/bin目录下的，应该部署在/usr/bin目录下就不存在这个问题   
 2. 不要重新编译直接下载工具安装部署==
