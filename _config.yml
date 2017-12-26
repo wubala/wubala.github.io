@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 甲壳虫爱上了夏天
+title: 随风飘扬
 name: wubala
 email: wubala_wulei@163.com 
 location: Xi'an China
-company: cecgw
-company_url: http://www.henu.edu.cn/
+company: DataCloudSec
+company_url: http://www.datacloudsec.com/#/ 
 github_url: https://github.com/wubala
 description: This is personnel website of Wayne Chu | 个人博客，用于记录学习笔记，分享经验
 favicon: favicon.png # Image must be in assets/images
