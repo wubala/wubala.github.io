@@ -1,8 +1,8 @@
 ---
 layout: post
-title: secret
+title: openvas-nasl调试nasl
 category: nasl
-tags: nasl
+tags: [nasl]
 
 ---
 
