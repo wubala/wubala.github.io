@@ -1,6 +1,6 @@
 ```
 layout: post
-title: secret
+title: openvas-nasl脚本调试3
 category: nasl
 tags: nasl
 ```
@@ -16,3 +16,4 @@ script_require_ports（"Services/unknown“），script_require_ports（Services
 这个就是类似于get_kb_item函数，只不过set_kb_item改成了入参，如下
 
 openvas-nasl -X -B -d  -i ~/plug/plugins -t 172.16.83.228 --kb="Services/three_digits=21" --kb="Services/unknown=21" ~/plug/plugins/find_service2.nasl  ~/plug/plugins/find_service_3digits.nasl  ~/plug/plugins/logins.nasl ~/plug/plugins/secpod_ftp_anonymous.nasl
+
