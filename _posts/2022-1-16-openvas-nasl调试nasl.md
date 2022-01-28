@@ -76,7 +76,7 @@ PORT    STATE SERVICE
 
 - 关于 get_port_state....begin state is 0 调试的代码是http_func.inc中的http_get_port 函数代码，调试添加的
 
-  ![1642250397430](/Users/wulei/Documents/blog/wubala.github.io/picture/1642250397430.png)
+  ![1642250397430](/picture/1642250397430.png)
 
 - 我们发现get_port_state 总是0，我们目前的需求就是解决这个问题。
 
