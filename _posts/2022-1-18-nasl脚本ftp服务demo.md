@@ -3,6 +3,7 @@ layout: post
 title: nasl脚本ftp服务demo
 category: nasl
 tags: [nasl]
+
 ```
 
 简单搞个ftp的demo，secpod_ftp_anonymous.nasl 以这个例子举例
